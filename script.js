@@ -19,7 +19,7 @@ function getResults(query){
     fetch(`${api.baseURL}weather?q=${query}&units=metric&APPID=${api.Key}`)
     .then(weather => {
         return weather.json();
-    }).then(displayResults).then(getMusic)
+    }).then(displayResults)
    // .catch(error =>{ 
    //     console.error();
    // });
