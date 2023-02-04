@@ -57,6 +57,4 @@ function displayResults(weather){
         return `${day} ${date} ${month} ${year}`;
     }
 
-    function getMusic(weather_mood){
-        fetch(``)
-    }
+   
