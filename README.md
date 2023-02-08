@@ -17,3 +17,11 @@ which includes getResult function which specially utilises API callback using ba
 this function using (then) keyword sets off the displayresults function which replaces the stringd in the html elements according to the reference variables present in the weather.json file 
 
 extra function of getting current date/day/month/year is also present.
+
+using the geocoding api i converted the city name to corresponding lattitude and longitude coordinates
+
+then by using timezonedb api and the respetive lattitude and longitude i was able to pinpoint and calculate the current time in the city
+
+also added newsfetching function which displays headlines , description and corresponding image of that news
+thing to be displayed 
+note: news is only filtered according to country and not city 
