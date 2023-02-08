@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'montserrat', sans-serif;
+    background-image: url('Kindacold.jpeg');
+    background-size: cover;
+    background-position: top center;
+  }
+  
+  .app-wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4));
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+  }
+  
+  header input {
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    outline: none;
+    background-color: rgb(245, 247, 190);
+    border-radius: 16px 16px 16px 16px;
+    border: 3px solid #0b45b1;
+    color: #313131;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2s ease-out;
+  }
+  
+  header input:focus {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  main {
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .location .city {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .location .date {
+    color: #FFF;
+    font-size: 26px;
+  }
+  
+  .temp .absTemp {
+    color: #FFF;
+    font-size: 102px;
+    font-weight: 900;
+    margin: 30px 0px;
+    text-shadow: 2px 10px rgba(0, 0, 0, 0.6);
+  }
+  
+  .temp.temp span {
+    font-weight: 500;
+  }
+  
+  .temp .weather_mood {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+  }
+  
+  .temp .rangeTemp {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+  }
+
+  .NewsBox .Headline{
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    font-weight: 900;
+
+  }
+  .NewsBox .description{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+   
+  }
+
+  .NewsBox{
+    background-color:white;
+    border-radius: 10px 10px 10px 10px;
+    border:4px solid#000000;
+  }
+
