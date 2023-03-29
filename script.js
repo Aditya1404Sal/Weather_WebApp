@@ -1,16 +1,16 @@
 const api = {
- Key: "c3bf9deb816976b4e7615c416db9b08a",
+ Key: "Your open weather API KEY",
  baseURL: "https://api.openweathermap.org/data/2.5/",
  geoUrl: "http://api.openweathermap.org/geo/1.0/"
 }
 
 const newsapi = {
-Key:"28e8d45b83b341f7b49b17ba9f08ed50",
+Key:"Your newsAPI KEY",
 baseURL: "https://newsapi.org/v2/"
 }
 
 const timeAPI = {
-Key:"HVKFK9U2UP97",
+Key:"Your TIME API KEY",
 baseURL:"http://api.timezonedb.com/v2.1/"
 }
 
